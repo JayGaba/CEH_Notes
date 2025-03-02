@@ -9,7 +9,7 @@ Cryptography is the practice of concealing information by converting plain text 
 
 There are two types of cryptography, determined by the number of keys employed for encryption and decryption:
 - **Symmetric Encryption**: Symmetric encryption (secret-key, shared-key, and private-key) uses the same key for encryption as it does for decryption
-- **Asymmetric Encryption**: Asymmetric encryption (public-key) uses different encryption keys for encryption and decryption; these keys are known as public and private keys
+- **Asymmetric Encryption**: Asymmetric encryption (public-key) uses different encryption key for encryption and decryption; these keys are known as public and private keys
 
 
 Hash functions calculate a unique fixed-size bit string representation, called a message digest, of any arbitrary block of information. Message digest (One-way Hash) functions distill the information contained in a file (small or large) into a single fixed-length number, typically between 128 and 256 bits. If any given bit of the function’s input is changed, every output bit has a 50% chance of changing. Given an input file and its corresponding message digest, it should be nearly impossible to find another file with the same message digest value, as it is computationally infeasible to have two files with the same message digest value.
